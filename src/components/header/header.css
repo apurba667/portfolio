@@ -1,0 +1,101 @@
+.header-content h5 {
+  font-size: 17px;
+  font-weight: 500;
+}
+.header-content h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+header {
+  height: 100vh !important;
+  overflow: hidden !important;
+  padding-top: 4rem !important;
+}
+.header-container {
+  position: relative;
+  height: 100%;
+  text-align: center;
+}
+
+.cv-lets-talk {
+  margin-top: 2.5rem !important;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  /* column-gap: 10px; */
+}
+.header-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+.header-socials a {
+  color: var(--color-primary) !important;
+  transition: 0.4s ease-in-out !important;
+}
+.header-socials a:hover {
+  color: white !important;
+}
+
+.header-socials::after {
+  /* position: absolute; */
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background-color: var(--color-primary);
+  /* bottom: 0; */
+}
+
+.my-img {
+  background-color: var(--color-primary);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 4rem !important;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 2rem 1.5rem 1.5rem 1.5rem !important;
+}
+.scroll-down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  color: var(--color-primary);
+  font-weight: 300;
+  font-size: 0.9rem;
+  transform: rotate(90deg);
+  transition: 0.4s ease-in-out;
+}
+.scroll-down:hover {
+  color: white;
+}
+
+/* responsive */
+@media (max-width: 575.98px) {
+  .scroll-down {
+    display: none;
+  }
+  .header-socials {
+    display: none;
+  }
+  .header-content h1 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .header-content h5 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+}
+@media (min-width: 576px) and (max-width: 766.98px) {
+}
+
+@media (min-width: 767px) and (max-width: 991.98px) {
+}
