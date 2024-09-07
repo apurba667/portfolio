@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Preloader.css"; // CSS file for styling
+
 import worker from "../../assets/worker.png";
 
 const Preloader = () => {
