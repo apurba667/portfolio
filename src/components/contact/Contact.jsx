@@ -102,7 +102,7 @@ const Contact = () => {
                       required
                     ></textarea>
                   </div>
-                  <div className="send">
+{/*                   <div className="send">
                     <button
                       type="submit"
                       className="btnn btnn-primary send"
@@ -110,7 +110,7 @@ const Contact = () => {
                     >
                       {loading ? "Sending..." : "Send Message"}
                     </button>
-                  </div>
+                  </div> */}
                 </form>
               </div>
             </div>
