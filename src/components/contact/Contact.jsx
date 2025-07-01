@@ -49,7 +49,7 @@ const Contact = () => {
                   <MdOutlineMailOutline className="contact-icon" />
                   <h4>Email</h4>
                   <h5>apurbaanikroy@gmail.com</h5>
-                  <a href="mailto:apurbaanikroy@gmail.com">Send Message</a>
+                  <a href="mailto:nadimquicktech@gmail.com">Send Message</a>
                 </article>
                 <article className="contact-item">
                   <FaInstagram className="contact-icon" />
